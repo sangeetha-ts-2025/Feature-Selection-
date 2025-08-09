@@ -1,5 +1,6 @@
 Lower-Limb Feature Selection + LSTM Trajectory Prediction
 This repository contains feature-selection pipelines (Autoencoder, LASSO, Mutual Information, PCA, RFE) and an LSTM inference/training stack to predict lower-limb joint angle trajectories from multimodal gait data (EMG, GRF, joint angles/torques, etc.). The workflow lets you compare different feature subsets and quantify their impact on temporal regression performance.
+
 ├── Auto encoder/          # Unsupervised feature learning + ranking
 
 ├── LASSO/                 # L1 regularized selection 
